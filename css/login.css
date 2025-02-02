@@ -39,6 +39,7 @@
 .cad-cliente .login-btns {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .login-btns .enviar-btn {
   font-size: 1.1rem;

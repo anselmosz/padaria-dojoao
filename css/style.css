@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --fundo: #f4f4f4;
+  --fundo: #fff;
   --fundo2: #dddbcb;
   --maincolor: #e8ae68;
   --text: #030303;
@@ -25,6 +25,36 @@ a, button {
 }
 label {
   font-weight: 600;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 2rem;
+  background-color: var(--fundo2);
+}
+footer .payments {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0 0 1rem 0;
+  border-bottom: var(--text) solid 1px;
+}
+.payments .pay-icons {
+  display: flex;
+  font-size: 1.4rem;
+  gap: 0.8rem;
+}
+footer .dados-empresa {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
 }
 
 /* Configurações do Home */
@@ -148,19 +178,19 @@ label {
   justify-content: center;
   gap: 0.8rem;
   padding: 10px;
-  background-color: var(--fundo2);
   border-radius: 5px;
 }
 .produto-card h4{
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 .produto-card img {
   width: 150px;
   border-radius: 5px;
 }
 .produto-card p {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 .produto-card button {
   padding: 5px 10px;
@@ -168,26 +198,28 @@ label {
   font-weight: 600;
   border-radius: 5px;
   color: var(--text);
-  background-color: var(--fundo);
+  background-color: var(--fundo2);
   border: none;
   cursor: pointer;
   transition: 0.3s ease;
 } .produto-card button:hover {
   background-color: var(--text);
   color: var(--fundo);
+  border-radius: 3rem;
 }
 
 .link-store {
-  padding: 0.3rem 1rem;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 8px 1.2rem;
+  cursor: pointer;
   color: var(--fundo);
-  background-color: var(--text);
+  font-weight: 500;
+  background-color: var(--text2);
+  border: none;
   border-radius: 8px;
-  transition: 0.2s ease;
-  border: var(--text) solid 1px;
+  transition: 0.3s ease;
 }
 .link-store:hover {
-  background-color: var(--fundo2);
-  color: var(--text);
+  background-color: var(--text);
+  border-radius: 3rem;
 }
