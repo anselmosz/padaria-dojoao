@@ -1,1 +1,40 @@
 @import url(./style.css);
+
+.carrinho-main {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0;
+  gap: 4rem;
+}
+
+.carrinho-container {
+  display: flex;
+  justify-content: space-around;
+}
+.resumo {
+  background-color: var(--fundo2);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+}
+.produtos-carrinho {
+  width: 50%;
+}
+
+.carrinho-produtos {
+  display: flex;
+  flex-direction: column;
+}
+
+.produto-unt {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.produto-unt img {
+  width: 100px;
+  border-radius: 6px;
+}
+.produto-unt .prod-data {
+  font-size: 1.5rem;
+}
