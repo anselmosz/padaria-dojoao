@@ -1,0 +1,57 @@
+@import url(./style.css);
+
+.login-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+
+.login-main h1 {
+  font-size: 2.5rem;
+  color: var(--maincolor);
+  text-shadow: 0 1px 2px var(--text);
+}
+
+.cad-cliente {
+  width: 30%;
+  margin: 5rem 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.dados-container .dados-input {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+.dados-input input {
+  font-size: 1.1rem;
+  padding: 8px 1rem;
+  background-color: var(--fundo2);
+  border: none;
+  border-radius: 2rem;
+}
+
+.cad-cliente .login-btns {
+  display: flex;
+  justify-content: space-around;
+}
+.login-btns .enviar-btn {
+  font-size: 1.1rem;
+  padding: 8px 1.2rem;
+  cursor: pointer;
+  color: var(--fundo);
+  font-weight: 500;
+  background-color: var(--text2);
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+.enviar-btn:hover {
+  background-color: var(--text);
+  border-radius: 3rem;
+}

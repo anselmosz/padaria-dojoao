@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/login.css">
+  <title>Padaria do Joao | Login</title>
 </head>
 <body>
   <header class="header">
@@ -11,14 +13,32 @@
       <img src="./assets/images/padaria-vetor.png" alt="logo da padaria">
       <h1>padaria do joão</h1>
     </div>
-    <nav>
-      <a href="">link</a>
-      <a href="">link</a>
-      <a href="">link</a>
-    </nav>
-    <i class="fa-solid fa-cart-shopping"></i>
+    <h2>Login</h2>
+    <div class="icons-header">
+      <a class="icon" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+      <a class="icon" href="./index.html"><i class="fa-solid fa-house"></i></a>
+      <a class="icon" href="./login.html"><i class="fa-solid fa-user"></i></a>
+    </div>
   </header>
-  <main></main>
-  <footer></footer>
+
+  <main class="login-main">
+    <h1>Faça login para começar a comprar</h1>
+    <section class="cad-cliente">
+      <div class="dados-container">
+        <div class="dados-input">
+          <label for="text">CPF</label>
+          <input type="text" name="" id="">
+        </div>
+        <div class="dados-input">
+          <label for="text">Código</label>
+          <input type="password" name="" id="">
+        </div>
+      </div>
+      <div class="login-btns">
+        <a class="enviar-btn" href="#">Login</a>
+        <a class="enviar-btn" href="./cadastro.html">Cadatrar</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
