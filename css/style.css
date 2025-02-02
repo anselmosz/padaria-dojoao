@@ -58,7 +58,7 @@ footer .dados-empresa {
 }
 
 /* Configurações do Home */
-/* Header */
+/* titulo inicial */
 .header-home {
   display: flex;
   justify-content: center;
@@ -78,7 +78,7 @@ footer .dados-empresa {
   width: 600px;
 }
 
-/* Configurações do header para outras páginas */
+/* Configurações do header */
 .header {
   margin: 2rem 0;
   display: flex;
@@ -110,10 +110,10 @@ footer .dados-empresa {
 
 .icons-header {
   display: flex;
-  gap: 64px;
+  gap: 4rem;
+  font-size: 1.8rem;
 }
 .icon {
-  font-size: 1.8rem;
   color: var(--text2);
   transition: 0.2s ease;
 }
@@ -222,4 +222,56 @@ footer .dados-empresa {
 .link-store:hover {
   background-color: var(--text);
   border-radius: 3rem;
+}
+
+@media screen and (max-width: 780px){
+  /* Configuraç~eos de resp. do header */
+  .header {
+    margin: 1rem 0;
+    gap: 1rem;
+    font-size: 8px;
+    justify-content: space-evenly;
+  }
+  .title h1{
+    display: none;
+  }
+  .icons-header {
+    gap: 2rem;
+    font-size: 1.5rem;
+  }
+
+  /* Configurações de resp. do footer */
+  footer {
+    padding: 1rem 0;
+    font-size: 0.8rem;
+  }
+  .pay-icons {
+    font-size: 1rem;
+  }
+
+  /* Configs de resp. do título inicial da home */
+  .header-home {
+    margin: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .header-home h1 {
+    font-size: 2rem;
+    padding: 0 10%;
+    text-align: center;
+  }
+
+  /* configs dos elementos do home */
+
+  /* Configurações dos cards do estoque */
+  .carrossel {
+    flex-direction: column;
+  }
+
+  .categoria {
+    width: 400px;
+    height: 300px;
+  }
+
+
 }

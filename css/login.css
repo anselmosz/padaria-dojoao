@@ -56,3 +56,17 @@
   background-color: var(--text);
   border-radius: 3rem;
 }
+
+@media screen and (max-width: 780px) {
+  .login-main {
+    margin: 2rem;
+  }
+  .login-main h1 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+  .cad-cliente {
+    width: 90%;
+    margin: 1rem;
+  }
+}
