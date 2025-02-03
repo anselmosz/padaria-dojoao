@@ -19,6 +19,12 @@
 .produtos-carrinho {
   width: 50%;
 }
+.resumo h1 {
+  color: var(--maincolor);
+  text-shadow: -2px 2px 2px var(--text);
+  padding: 0 0 10px 0;
+  border-bottom: var(--text) solid 1px;
+}
 
 .carrinho-produtos {
   display: flex;
@@ -66,7 +72,11 @@
   flex-direction: column;
   gap: 1rem;
 }
-
+.dados-compra {
+  display:flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
 .dado {
   padding: 0.7rem 0;
   display: flex;
@@ -75,11 +85,11 @@
 .total {
   font-size: 1.3rem;  
 }
-.dados-compra {
-  display:flex;
-  flex-direction: column;
-  padding: 1rem 0;
+.produto {
+  font-size: 1.2rem;
 }
+
+
 
 .compra a {
   padding: 0.3rem 0;
