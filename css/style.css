@@ -7,7 +7,7 @@
   --fundo2: #dddbcb;
   --maincolor: #e8ae68;
   --text: #030303;
-  --text2: #474643;
+  --text2: #7E7F83;
   font-family: 'Segoe UI', 'Roboto', Tahoma, Verdana, sans-serif;
 }
 
@@ -20,8 +20,10 @@ body {
 main {
   max-width: 100%;
 }
-a, button {
+a, button, input {
   text-decoration: none;
+  border: none;
+  outline: none;
 }
 label {
   font-weight: 600;
