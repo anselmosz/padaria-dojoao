@@ -81,7 +81,7 @@
   padding: 1rem 0;
 }
 
-.compra button {
+.compra a {
   padding: 0.3rem 0;
   font-size: 1.2rem;
   cursor: pointer;
@@ -89,8 +89,9 @@
   color: var(--fundo);
   border-radius: 8px;
   transition: 0.3s ease;
+  text-align: center;
 }
-.compra button:hover {
+.compra a:hover {
   background-color: var(--text);
   border-radius: 4rem;
 }
