@@ -1,1 +1,64 @@
 @import url(./style.css);
+
+.pagamento-main {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.pagamento-main section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.pagamento-main section h1 {
+  color: var(--maincolor);
+  text-shadow: -2px 2px 2px var(--text);
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
+}
+
+.pay-type {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pay-type .pay-card, .pag-metodo{
+  display: flex;
+}
+.pay-card {
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--fundo2);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.pag-metodo {
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.pay-card a {
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+@media screen and (max-width: 600px){
+  .pagamento-main {
+    margin: 5rem 2rem;
+  }
+
+  .pagamento-main section h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .pag-metodo {
+    font-size: 1rem;
+  }
+  .pay-card a {
+    font-size: 1rem;
+  }
+}
