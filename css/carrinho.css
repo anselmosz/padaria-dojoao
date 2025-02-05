@@ -3,7 +3,7 @@
 .carrinho-main {
   display: flex;
   flex-direction: column;
-  margin: 6rem 0;
+  margin: 6rem;
   gap: 4rem;
 }
 
@@ -49,7 +49,7 @@
   justify-content: space-between;
 }
 .prod-data .prod-btn {
-  width: 120px;
+  width: 20%;
   padding: 2px 10px;
   display: flex;
   justify-content: space-between;
@@ -86,7 +86,28 @@
   font-size: 1.2rem;
 }
 
+.cep {
+  display: flex;
+  gap: 2rem;
+  margin: 6rem 0 3rem 6rem;
+}
 
+.search-bar {
+  width: 30%;
+  display: flex;
+  font-size: 1.5rem;
+  gap: 1rem;
+  background-color: var(--fundo2);
+  padding: 8px 1rem;
+  border-radius: 3rem;
+}
+.search-bar input {
+  width: 95%;
+  font-size: 1.2rem;
+  background-color: var(--fundo2);
+  border: none;
+  outline: none;
+}
 
 .compra a {
   padding: 0.3rem 0;
@@ -106,6 +127,9 @@
 }
 
 @media screen and (max-width: 900px) {
+  .carrinho-main {
+    margin: 2rem;
+  }
   .carrinho-container {
     display: flex;
     flex-direction: column;
@@ -121,8 +145,32 @@
   }
   .produto-unt {
     gap: 1rem;
+    align-items: center;
   }
   .produto-unt .prod-data, p {
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+  .prod-data {
+  }
+  .prod-btn {
+    width: 10%;
+    font-size: 1rem;
+    flex-direction: column-reverse;
+    padding: 0;
+    align-items: center;
+  }
+
+  .cep {
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .cep h1 {
+    font-size: 1.6rem;
+  }
+  .search-bar {
+    width: 70%;
+    font-size: 1rem;
   }
 }
