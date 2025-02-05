@@ -8,4 +8,4 @@ Este site é parte de um projeto de desenvolvimento fullstack que irá abranger 
 - CSS
 
 ## 🖥 Deploy
-https://anselmosz.github.io/padaria-dojoao/index.html
+https://anselmosz.github.io/padaria-dojoao/
