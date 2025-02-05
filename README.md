@@ -6,3 +6,6 @@ Este site é parte de um projeto de desenvolvimento fullstack que irá abranger 
 ## ⚙ Tecnologias utilizadas
 - HTML
 - CSS
+
+## 🖥 Deploy
+https://anselmosz.github.io/padaria-dojoao/index.html
