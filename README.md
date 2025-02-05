@@ -6,8 +6,3 @@ Este site é parte de um projeto de desenvolvimento fullstack que irá abranger 
 ## ⚙ Tecnologias utilizadas
 - HTML
 - CSS
-
-
-## 🖥 Deploy status
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/anselmosz/padaria-dojoao/CI?label=build)
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
